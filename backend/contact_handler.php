@@ -53,7 +53,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'sendmessages02@gmail.com';  
-    $mail->Password   = 'bxpi jgps mcrc ereo';         
+    $mail->Password   = 'your_app_password_here';         
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
